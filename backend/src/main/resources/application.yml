@@ -1,0 +1,22 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /
+  tomcat:
+    uri-encoding: UTF-8
+    threads:
+      max: 800
+      min-spare: 30
+
+# 日志分片配置
+logging:
+  config: classpath:logback.xml
+  level:
+    io.swagger.models.parameters.AbstractSerializableParameter: error
+
+# rocksdb配置
+rocksdb:
+  # 通道名
+  channel: -resolving
+  # 路径
+  path: F:\rocksdb

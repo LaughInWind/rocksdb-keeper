@@ -1,0 +1,42 @@
+{
+  // https://www.tslang.cn/docs/handbook/compiler-options.html
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "noLib": false,
+    "strict": true,
+    "skipLibCheck": true,
+    "noImplicitThis": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "strictFunctionTypes": false,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "allowJs": false,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "incremental": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "isolatedModules": true,
+    "types": ["vite/client", "element-plus/global", "unplugin-vue-macros/macros-global"],
+    "typeRoots": ["./node_modules", "./types"],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "paths": {
+      "@/*": ["src/*"],
+      "#/*": ["types/*"]
+    }
+  },
+  "include": ["src", "types", "tests"],
+  "exclude": ["node_modules", "dist", "**/*.js", "discard/"],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

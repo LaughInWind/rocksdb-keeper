@@ -1,0 +1,14 @@
+### IntelliJ IDEA ###
+# backend
+.idea
+logs/
+
+# frontend
+frontend/*.local
+frontend/.DS_Store
+frontend/package-lock.json
+frontend/bin
+frontend/dist
+frontend/dist_electron
+frontend/node_modules
+
