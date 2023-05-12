@@ -1,7 +1,25 @@
 ### IntelliJ IDEA ###
 # backend
-.idea
 logs/
+target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### JRebel ###
+rebel.xml
+
 
 # frontend
 frontend/*.local
