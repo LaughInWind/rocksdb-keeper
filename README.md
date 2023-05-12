@@ -1,3 +1,18 @@
+# rocksdb-keeper
+
+## 关于
+一个rocksdb数据库管理工具
+* ./backend Java后端代码
+* ./frontend Vue3/Vite3前端代码
+
+# 后端代码
+## 特性
+
+* Java8或以上版本
+* Maven
+* Spring Boot
+
+# 前端代码
 ## 特性
 
 - **最新技术栈**：使用 Vue3/Vite3 等前端前沿技术开发
